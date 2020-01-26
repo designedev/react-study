@@ -3,14 +3,14 @@ import React from "react";
 import "./App.css";
 import MyComponent from "./MyComponent";
 import Counter from "./Counter";
-import Say from "./Say";
+import StatePropsTestComponent from "./StatePropsTestComponent";
 
 function App() {
   return (
     <div className="App">
       <MyComponent name="SAM" email="sam@mail.com"></MyComponent>
       <Counter></Counter>
-      <Say></Say>
+      <StatePropsTestComponent value={10}></StatePropsTestComponent>
     </div>
   );
 }
